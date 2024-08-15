@@ -25,16 +25,16 @@
 }
 
 .hero-image{
+    width: 108%;
     position: absolute;
-    right: -110px;
-    bottom: 60px;
+    right: -110px; 
+    bottom: 50%;
+    transform: translateY(50%); 
 }
 
 
-@media (max-width: 1320px) {
+@media (max-width: 1200px) {
     .hero-image{
-        width: 625px;
-        height: 65%;
-        bottom: 120px;
-    }
+        width: 115%;
+    }   
 }
