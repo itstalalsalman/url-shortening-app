@@ -22,6 +22,8 @@
     color: var(--Very-Dark-Blue);
     font-size: 18px;
     border-radius: 10px;
+    outline: none;
+    border: none;
 }
 
 .inp-url > button {

@@ -21,7 +21,7 @@
     height: 100vh;
     background-color: rgb(240, 241, 246);
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     flex-direction: column;
     

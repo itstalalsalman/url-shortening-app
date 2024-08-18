@@ -1,3 +1,79 @@
+@import '../../App.css';
+
 .advanceStats-container{
-    
+    width: 80%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.stats-header{
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stats-header > h1{
+    color: var(--Very-Dark-Blue);
+    overflow: hidden;
+    font-size: 35px;
+}
+
+.stats-header > p{
+    color: var(--Grayish-Violet);
+    font-weight: 500;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+}
+
+
+.statistics-division{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: visible;
+}
+
+.brandRecognition-container{
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    overflow: visible;
+    z-index: 1;
+    padding-top: 35px;
+}
+
+.detailedRecords-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    padding-top: 35px;
+}
+
+.fullyCustomizable-container{
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    z-index: 1;
+}
+
+.line-behind{
+    width: 100%;
+    height: 10px;
+    background-color: var(--Cyan);
+    position: absolute;
+    z-index: 0;
 }
