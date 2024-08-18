@@ -2,10 +2,11 @@
 
 .navbar{
     width: 80%;
-    height: 85px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    overflow: hidden;
 }
 
 
@@ -22,6 +23,7 @@
     width: 130px;
     height: 40px;
     object-fit: contain;
+    cursor: pointer;
 }
 
 .list{
@@ -55,6 +57,12 @@
     font-weight: 600;
     color: var(--Grayish-Violet);
     border: none;
+    transition: color 0.2s ease-in;
+    overflow: hidden;
+}
+
+.btn-login:hover{
+    color: var(--Very-Dark-Blue);
 }
 
 .btn-signup{
@@ -63,4 +71,5 @@
     font-size: 16px;
     font-weight: 600;
     border-radius: 20px;
+    overflow: hidden;
 }

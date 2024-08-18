@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .App{
@@ -33,10 +34,9 @@
     background-color: var(--Cyan);
     color: white;
     border: none;
-    opacity: 1;
-    transition: opacity 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
 }
 
 .green-hover:hover{
-    opacity: 0.5;
+    background-color: rgb(152, 234, 234);
 }

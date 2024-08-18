@@ -1,0 +1,32 @@
+@import '../../App.css';
+
+.inp-url{
+    width: 70%;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    background-image: url(../../assets/bg-shorten-desktop.svg);
+    background-repeat: no-repeat;
+    background-color:  var(--Dark-Violet);
+    background-position: 50px 0px 50px;
+    border-radius: 10px;
+    gap: 25px;
+}
+
+
+.url-input{
+    width: 70%;
+    height: 60px;
+    padding-left: 25px;
+    background-color: white;
+    color: var(--Very-Dark-Blue);
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.inp-url > button {
+    width: 180px;
+    height: 60px;
+    font-size: 18px;
+}
+
