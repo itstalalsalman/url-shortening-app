@@ -1,3 +1,4 @@
+import BoostLink from '../../components/BoostLink/BoostLink';
 import Navbar from '../../components/Navbar/Navbar';
 import UrlInput from '../../components/UrlInput/UrlInput';
 import UrlOutput from '../../components/UrlOutput/UrlOutput';
