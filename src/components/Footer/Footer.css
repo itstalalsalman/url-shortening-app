@@ -1,0 +1,16 @@
+.footer{
+    width: 80%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo-footer{
+    width: 130px;
+}
+
+.listing-and-icons{
+    width: 65%;
+    height: 100%;
+}
