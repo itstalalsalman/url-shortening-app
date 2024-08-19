@@ -29,9 +29,11 @@
 .card-heading{
     color: var(--Very-Dark-Blue);
     margin-top: 30px;
+    overflow: hidden;
 }
 
 .card-description{
     color: var(--Grayish-Violet);
     font-weight: 500;
+    overflow: hidden;
 }
