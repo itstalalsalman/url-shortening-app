@@ -27,9 +27,13 @@
     justify-content: space-between;
     align-items: center;
     color: var(--Cyan);
+    gap: 20px;
 }
 
 .copy-btn{
     background-color: var(--Cyan);
     color: white;
+    width: 100px;
+    height: 40px;
+    overflow: hidden;
 }
