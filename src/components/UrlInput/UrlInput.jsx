@@ -22,7 +22,6 @@ const UrlInput = () => {
       return ;
     }
     if(!validUrlIput.test(urlInputVal)){
-      alert('asdd')
       setError(true)
       setErrorText("Incorrect link");
       return ;

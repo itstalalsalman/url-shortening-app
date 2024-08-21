@@ -40,3 +40,5 @@
 .green-hover:hover{
     background-color: rgb(152, 234, 234);
 }
+
+.green-hover:focus{outline: none;}
