@@ -1,4 +1,29 @@
 .list-container{
     width: 20%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list-heading{
+    font-size: 18px;
+}
+
+.list-container > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+
+.item-name{
+    color: var(--Gray);
+    cursor: pointer;
+    transition: color 0.2s ease-in;
+}
+
+.item-name:hover{
+    color: var(--Cyan);
 }

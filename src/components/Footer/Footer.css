@@ -13,4 +13,13 @@
 .listing-and-icons{
     width: 65%;
     height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-container{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 25px;
 }
